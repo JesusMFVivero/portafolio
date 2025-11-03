@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio | Jesus MF Vivero</title>
+  <style>
+    body {
+      margin: 0;
+      background: #fff;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    .intro-section {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      min-height: 100vh; width: 100vw; background: linear-gradient(90deg,#1a237e 70%,#21222a 100%);
+      color: #fff; text-align: center; transition: opacity .9s cubic-bezier(.23,.7,.32,1);
+      opacity: 0; pointer-events: none;
+    }
+    .intro-section.active {
+      opacity: 1; pointer-events: auto;
+    }
+    .avatar {
+      width: 120px; height: 120px; border-radius: 50%; border: 4px solid #fff;
+      object-fit: cover; box-shadow: 0 0 12px #162baf85; margin-bottom: 18px;
+      background: #fff;
+    }
+    .title {
+      font-size: 2.2rem; margin-top: 8px; text-shadow: 0 2px 12px #1A216E44;
+    }
+    .subtitle {
+      font-size: 1.15rem; font-weight: 500; margin-bottom: 12px; text-shadow: 0 1px 10px #103eaa35;
+    }
+    .about {
+      margin: 20px auto; max-width:470px; background:#f3f5ff; color:#23294b; border-left:4px solid #2445a5;
+      padding:16px 18px; border-radius:8px; font-size:1.05rem; color:#222; text-align:center; box-shadow:0 1px 14px #0e214410;
+    }
+    .contact {
+      font-size:.96rem; color:#e0e8fa;margin-bottom:18px;margin-top:4px;text-shadow:0 1px 5px #1a237e80;
+    }
+    .contact a { color:#fff; text-decoration:underline;}
+    .section-img {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      min-height: 100vh; width: 100vw; margin:0 auto; box-sizing: border-box;
+      background: #fff; opacity: 0; pointer-events: none;
+      transition: opacity .9s cubic-bezier(.23,.7,.32,1);
+    }
+    .section-img.active { opacity: 1; pointer-events: auto; }
+    .section-img img {
+      max-width: 98vw; max-height: 86vh; width: auto; height: auto; border-radius: 22px;
+      box-shadow: 0 2px 28px #22337538; background: #fff; margin: 0 auto; display: block;
+    }
+    .section-img img:hover {
+      transform: scale(1.03); box-shadow: 0 4px 45px #225be75e;
+    }
+    .img-caption {
+      margin-top:14px; font-size:1.1rem; color:#2445a5; font-weight:500; text-shadow:0 1px 5px #fff2;
+      text-align:center; margin-bottom:28px;
+    }
+    @media (max-width:700px) {
+      .section-img img { max-width: 99vw; max-height: 55vh;}
+      .about, .section-img, .intro-section { padding-left:4vw; padding-right:4vw;}
+    }
+  </style>
+</head>
+<body>
+  <div class="intro-section">
+    <img src="pixverse_i2i_ori_0e5b6c20-076a-4f5c-9578-c41e432e3723.jpg" class="avatar" alt="Jesus MF Vivero Foto">
+    <div class="title">Jesus Miguel Fritz Vivero</div>
+    <div class="subtitle">Diseñador Gráfico · Técnico en Integración de Contenidos Digitales</div>
+    <div class="about">
+      Me considero una persona seria, dinámica, responsable, con fundamentos Cristianos y deseos de superación.<br>
+      Mis metas están basadas en seguir creciendo como persona y desarrollarme en un futuro próximo en un talentoso profesional.
+      Aprendo rápido y cumplo de manera adecuada con puntualidad, honestidad y responsabilidad en las distintas actividades que realizo.<br>
+      Dispuesto a cumplir con las distintas funciones, obligaciones y normas laborales que tengan establecidas, me presento con gran entusiasmo a su empresa para formar parte de su equipo de trabajo para alcanzar los logros, metas planteadas en su misión.<br>
+      Tengo claro lo que deseo y quiero alcanzar desde mi profesión, aportando siempre servicio, ayuda y amor al prójimo en desarrollo personal, laboral y profesional.
+    </div>
+    <div class="contact">
+      📱 3117617512 &nbsp; ✉️ <a href="mailto:jesusmfvivero22@gmail.com">jesusmfvivero22@gmail.com</a> &nbsp; | Galapa, Atlántico
+    </div>
+  </div>
+  <!-- Secciones horizontales, una imagen por bloque -->
+  <div class="section-img"><img src="Certificado seminario rincones de aprendizaje_Mesa de trabajo 1 copia 3.png" alt="Certificado Seminario Rincones"><div class="img-caption">Certificado Seminario Rincones de Aprendizaje</div></div>
+  <div class="section-img"><img src="diploma _Mesa de trabajo 1.png" alt="Diploma atención integral"><div class="img-caption">Diploma atención integral a la primera infancia</div></div>
+  <div class="section-img"><img src="diplomado_Mesa de trabajo 1.png" alt="Diplomado Estrategias Pedagógicas"><div class="img-caption">Diplomado en Estrategias Pedagógicas</div></div>
+  <div class="section-img"><img src="imagen-2023-10-11-095743725.png" alt="Publicidad servicio clínico APH"><div class="img-caption">Publicidad servicios infantiles</div></div>
+  <div class="section-img"><img src="logo corporacion universitaria gis jye [sin fondo].png" alt="Logo GIS J&E sin fondo"><div class="img-caption">Logo GIS J&E sin fondo</div></div>
+  <div class="section-img"><img src="logo corporacion universitaria gis jye sf_Mesa de trabajo 1.png" alt="Logo GIS J&E blanco y negro"><div class="img-caption">Logo GIS J&E blanco y negro</div></div>
+  <div class="section-img"><img src="logo corporacion universitaria gis jye-02.png" alt="Logo GIS J&E variante"><div class="img-caption">Logo GIS J&E variante</div></div>
+  <div class="section-img"><img src="logo jesuskindergarten.png" alt="Logo Jesús Kindergarten"><div class="img-caption">Logo Jesús Kindergarten</div></div>
+  <div class="section-img"><img src="Nueva publicidad gis logo final_Mesa de trabajo 1.png" alt="Publicidad GIS J&E"><div class="img-caption">Publicidad GIS J&E</div></div>
+  <div class="section-img"><img src="otro diseño diploma 2_Mesa de trabajo 1.png" alt="Diploma adicional"><div class="img-caption">Diploma adicional FundamD'arte y GIS J&E</div></div>
+  <div class="section-img"><img src="otro diseño diploma_Mesa de trabajo 1.png" alt="Diploma FundamD'arte"><div class="img-caption">Diploma personalizado para FundamD'arte</div></div>
+  <div class="section-img"><img src="pasacalles_Mesa de trabajo 1.jpg" alt="Pasacalles institucional"><div class="img-caption">Pasacalles institucional</div></div>
+  <div class="section-img"><img src="pendon elkin_Mesa de trabajo 1.png" alt="Pendón Elkin"><div class="img-caption">Pendón Elkin Servicio clinico</div></div>
+  <div class="section-img"><img src="pendon elite_Mesa de trabajo 1.png" alt="Pendón Elite"><div class="img-caption">Pendón Elite publicitario</div></div>
+  <div class="section-img"><img src="portada facebook fundarte_Mesa de trabajo 1.png" alt="Portada Facebook FundamD'arte"><div class="img-caption">Portada de Facebook FundamD'arte</div></div>
+  <div class="section-img"><img src="publicidad nueva2_Mesa de trabajo 1.png" alt="Publicidad nueva GIS"><div class="img-caption">Publicidad nueva GIS J&E</div></div>
+  <div class="section-img"><img src="Tarde de titeres_Mesa de trabajo 1.png" alt="Evento Tarde de Títeres"><div class="img-caption">Evento Tarde de Títeres</div></div>
+  <div class="section-img"><img src="Volante nano publicidad_Mesa de trabajo 1.png" alt="Volante publicidad NaNo"><div class="img-caption">Volante Publicidad NaNo</div></div>
+  <div class="section-img"><img src="volante para que elkin reparta_Mesa de trabajo 1.png" alt="Volante GIS presencial/virtual"><div class="img-caption">Volante GIS presencial/virtual</div></div>
+  <div class="section-img"><img src="volante para que elkin reparta2_Mesa de trabajo 1.png" alt="Volante informativo GIS"><div class="img-caption">Volante informativo GIS J&E</div></div>
+
+<script>
+  // Solo una sección visible a la vez (la más centrada; incluye intro)
+  function getCenteredSection() {
+    const sections = document.querySelectorAll('.intro-section, .section-img');
+    let min = Infinity, selected = null;
+    const winCenter = window.innerHeight / 2;
+    sections.forEach(section => {
+      const rect = section.getBoundingClientRect();
+      const centerDist = Math.abs((rect.top + rect.bottom) / 2 - winCenter);
+      if (rect.top < window.innerHeight && rect.bottom > 0 && centerDist < min) {
+        min = centerDist; selected = section;
+      }
+    });
+    sections.forEach(sec => sec.classList.remove('active'));
+    if (selected) selected.classList.add('active');
+  }
+  window.addEventListener('scroll', getCenteredSection);
+  window.addEventListener('resize', getCenteredSection);
+  document.addEventListener('DOMContentLoaded', getCenteredSection);
+</script>
+</body>
+</html>
